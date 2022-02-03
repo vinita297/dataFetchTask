@@ -18,12 +18,23 @@ class App extends Component {
       <mainStack.Screen
         name={'Home'}
         component={Home}
-        options={{ headerShown: false }}
+        options={{
+          headerShown: true,
+          headerTitleStyle: {
+            fontWeight: 'bold',
+          },
+        }}
       />
       <mainStack.Screen
         name={'Image'}
         component={Image}
-        options={{ headerShown: false }}
+        options={{
+          headerShown: true,
+          title: 'Image-View',
+          headerTitleStyle: {
+            fontWeight: 'bold',
+          },
+        }}
       />
     </mainStack.Navigator>
   );

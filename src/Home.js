@@ -5,7 +5,7 @@ import {
     View,
     StyleSheet,
     Dimensions,
-    TouchableOpacity
+    TouchableOpacity,
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
         alignSelf: 'center',
         fontWeight: 'bold',
         fontSize: 25,
-        padding: 10
+        padding: 10,
     },
 });
 
